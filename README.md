@@ -63,27 +63,13 @@ This README gives an entry-level description, setup instructions, and developmen
 - .env.example contains environment variables required to run the app locally.
 - Update API_BASE_URL, AUTH_CLIENT_ID, and any feature flags as needed.
 
-## Contributing
 
-Contributions are welcome. Please follow these steps:
+## Member and role
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feat/your-feature`
-3. Commit your changes: `git commit -m "Add some feature"`
-4. Push to your fork: `git push origin feat/your-feature`
-5. Open a Pull Request describing your changes
-
-Please include tests and update documentation where appropriate.
-
-## License
-
-Specify the project license here (e.g., MIT). If you don't yet have a license, add a LICENSE file to the repository.
-
-## Contact
-
-Maintainer: HakphengKang
+Memory Guardian: Ngorn Vitou
+Record Architect: Srey Sotheadara
+Test Captain: Hakpheng Kang
+Integration Captain / Presenter: Ty Pisoth
+Integration Captain / Presenter: Chea Sideth
 
 ---
-
-Notes:
-- I added a detailed README to the repository. If you'd like the short repository "About" description (the single-line description shown on GitHub) updated as well, I can update it but I need repository settings access or an API call with the appropriate permission — let me know if you want me to update the repo metadata or change any placeholders in this README (tech stack, screenshots, license).
