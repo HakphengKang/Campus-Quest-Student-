@@ -67,9 +67,13 @@ This README gives an entry-level description, setup instructions, and developmen
 ## Member and role
 
 Memory Guardian: Ngorn Vitou
+
 Record Architect: Srey Sotheadara
+
 Test Captain: Hakpheng Kang
+
 Integration Captain / Presenter: Ty Pisoth
+
 Integration Captain / Presenter: Chea Sideth
 
 ---
