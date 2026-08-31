@@ -19,7 +19,7 @@ int main(void)
     Team *teams = nullptr;
     int size = 0;
     int capacity = 0;
-    int choice;
+    int choice = 0;
 
     loadTeams("teams.txt", &teams, &size, &capacity);
 
