@@ -62,10 +62,11 @@ int main(void)
                 std::cout << "Failed to register team. Invalid ID or duplicate.\n";
             }
         } else if (choice == 2) {
-            int id, points;
-            readInt("Team ID: ", &id);
-            readInt("Mission points (1-100): ", &points);
-            if (recordMission(teams, size, id, points)) {
+            int id = 0, points = 0;
+            bool validId = readInt("Team ID: ", &id);
+            bool validPoints = readInt("Mission points (1-100): ", &points);
+
+            if (validId && validPoints && recordMission(teams, size, id, points)) {
                 std::cout << "Mission points recorded successfully.\n";
             } else {
                 std::cout << "Failed to record mission points. Invalid team ID or points.\n";
