@@ -24,16 +24,6 @@ This README gives an entry-level description, setup instructions, and developmen
 - Club and group pages with membership and messaging
 - Offline support and local caching (if implemented)
 
-## Technology Stack
-
-- Frontend: (React / React Native / Vue.js / Angular — replace with actual stack)
-- State management: (Redux / Zustand / Vuex / MobX)
-- Backend API: RESTful or GraphQL (replace with actual API tech)
-- Data storage: Local storage / SQLite / AsyncStorage for mobile
-- Authentication: OAuth2 / JWT
-
-(Replace the placeholders above with the actual technologies used in this project.)
-
 ## Installation (Local Development)
 
 1. Clone the repository:
