@@ -1,0 +1,7 @@
+101|Alpha Team|120|3
+102|Bravo Squad|85|2
+103|Valid Team|0|0
+109|as|0|0
+104|sw|0|0
+105|dara|0|0
+106|pisoth|0|0

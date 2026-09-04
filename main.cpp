@@ -35,10 +35,29 @@ int main(void)
 
         if (choice == 1) {
             Team candidate = {0, "", 0, 0};
-            readInt("Team ID: ", &candidate.id);
+
+            while (true) {
+                if (!readInt("Team ID: ", &candidate.id)) {
+                    std::cout << "Invalid team ID. Please enter a number.\n";
+                    continue;
+                }
+
+                if (findTeamIndex(teams, size, candidate.id) != -1) {
+                    std::cout << "Duplicate ID: that team ID already exists. Please enter a different ID.\n";
+                    continue;
+                }
+
+                break;
+            }
+
             readText("Team name: ", candidate.name, NAME_LEN);
+
             if (addTeam(&teams, &size, &capacity, candidate)) {
-                std::cout << "Team registered successfully.\n";
+                if (!saveTeams("teams.txt", teams, size)) {
+                    std::cout << "Team registered successfully, but failed to save to file.\n";
+                } else {
+                    std::cout << "Team registered successfully.\n";
+                }
             } else {
                 std::cout << "Failed to register team. Invalid ID or duplicate.\n";
             }
